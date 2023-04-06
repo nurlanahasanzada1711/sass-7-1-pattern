@@ -1,0 +1,292 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.722);
+  width: 100%;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.header .container .nav-tittle {
+  color: rgba(255, 255, 0, 0.893);
+  font-size: 32px;
+  font-family: Dancing Script;
+}
+.header .container .nav-link {
+  width: 50%;
+  display: flex;
+}
+.header .container .nav-link .nav-link-right {
+  display: flex;
+  align-items: center;
+}
+.header .container .nav-link .nav-link-right .nav-right-link-item {
+  margin-left: 20%;
+  list-style: none;
+}
+.header .container .nav-link .nav-link-right .nav-right-link-item a {
+  text-decoration: none;
+  color: rgb(227, 218, 218);
+  font-family: Poppins;
+  transition: 0.4s linear;
+}
+.header .container .nav-link .nav-link-right .nav-right-link-item a a:hover {
+  color: rgba(255, 255, 0, 0.893);
+}
+
+.main .container1 {
+  width: 100%;
+  height: 90vh;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg");
+  background-attachment: fixed;
+  position: relative;
+}
+.main .tittle {
+  z-index: 10;
+  position: relative;
+  top: 30%;
+  left: 1.5%;
+  text-align: center;
+}
+.main .tittle h1 {
+  font-size: 600%;
+  font-style: Poppins;
+}
+.main .tittle p {
+  font-size: 200%;
+}
+.main .tittle button {
+  font-size: 120%;
+  margin-top: 2.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 2%;
+  padding-left: 2%;
+  border-radius: 10px;
+  background-color: #1D809F;
+  border: none;
+}
+.main .tittle button button:hover {
+  background-color: #166077;
+}
+.main .text {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.main .text h3 {
+  font-size: 210%;
+}
+.main .text p {
+  font-size: 120%;
+}
+.main .text button {
+  font-size: 110%;
+  margin-top: 2.5%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+  border-radius: 10px;
+  background-color: black;
+  border: none;
+  color: white;
+}
+.main .container3 {
+  background-color: #1D809F;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.main .container3 .text3 {
+  text-align: center;
+}
+.main .container3 .text3 p {
+  font-size: 130%;
+  color: rgba(255, 255, 0, 0.893);
+}
+.main .container3 .text3 h3 {
+  font-size: 220%;
+  color: white;
+}
+.main .row {
+  display: flex;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+.main .row .col-4 {
+  width: 23%;
+  text-align: center;
+}
+.main .row .col-4 i {
+  background-color: #fff;
+  color: #1D809F;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.main .row .col-4 h4 {
+  padding-top: 4%;
+  font-size: 150%;
+  color: white;
+}
+.main .row .col-4 p {
+  font-size: 120%;
+  color: rgb(178, 167, 167);
+  padding-top: 4%;
+}
+.main .text4 {
+  width: 100%;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg");
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+.main .text4 h2 {
+  width: 30%;
+  margin-left: 35%;
+  font-size: 300%;
+}
+.main .text4 button {
+  font-size: 110%;
+  margin-top: 2.5%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+  border-radius: 10px;
+  background-color: #1D809F;
+  border: none;
+  color: white;
+}
+.main .text5 {
+  width: 100%;
+  background-color: #1D809F;
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.main .text5 h3 {
+  font-size: 210%;
+}
+.main .text5 .buttontext {
+  font-size: 110%;
+  margin-top: 2.5%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  color: black;
+  margin-right: 2%;
+}
+.main .text5 .buttontext2 {
+  font-size: 110%;
+  margin-top: 2.5%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+  border-radius: 10px;
+  background-color: black;
+  border: none;
+  color: white;
+}
+.main .container6 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.main .container6 .text6 {
+  text-align: center;
+}
+.main .container6 .text6 p {
+  font-size: 130%;
+}
+.main .container6 .text6 h2 {
+  font-size: 220%;
+  color: black;
+}
+.main .container6 .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .container6 .row .col-4 {
+  text-align: center;
+}
+.main .container6 .row .col-4 .team {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.main .container6 .row .col-4 .team .imageteam {
+  width: 100%;
+  border-radius: 50%;
+  border: 5px solid gray;
+}
+.main .container6 .row .col-4 .team h4 {
+  font-size: 160%;
+  color: black;
+}
+.main .container6 .row .col-4 .team a {
+  text-decoration: none;
+}
+.main .container6 .row .col-4 .team a i {
+  margin-top: 3%;
+  margin-right: 4%;
+  font-size: 130%;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: black;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 100%;
+}
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+.footer .footerdiv {
+  padding-right: 3rem !important;
+  padding-left: 3rem !important;
+}
+.footer .footerdiv ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 3rem;
+}
+.footer .footerdiv ul li {
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+.footer .footerdiv ul li a {
+  display: block;
+  text-decoration: none;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  color: white;
+  font-size: 1.5rem;
+  background-color: #1D809F;
+  border-radius: 50px;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}/*# sourceMappingURL=main.css.map */
